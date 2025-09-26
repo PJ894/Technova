@@ -1,0 +1,132 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: #0077cc;
+}
+
+a:hover {
+    color: #005fa3;
+}
+
+/* Header */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+header .company-name h1 {
+    margin: 0;
+    font-size: 1.8rem;
+}
+
+/* Navigation */
+nav {
+    background-color: #144d7e;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+    display: block;
+}
+
+nav a:hover {
+    background-color: #0d3b66;
+    border-radius: 5px;
+}
+
+/* Main + Aside Layout */
+.content-wrapper {
+    display: flex;
+    max-width: 1200px;
+    margin: 20px auto;
+    gap: 20px;
+}
+
+/* Main Content */
+main {
+    flex: 3;
+    padding: 20px;
+}
+
+main section h2 {
+    color: #0d3b66;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #0077cc;
+    padding-bottom: 5px;
+}
+
+main section p {
+    background-color: #d9f0ff;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+    font-weight: bold;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.1);
+}
+
+/* Aside / Special Ads */
+aside {
+    flex: 1;
+    background-color: #e0e0e0;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+aside h3 {
+    color: #0d3b66;
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+
+aside p {
+    background-color: #fff3cd;
+    padding: 8px;
+    border-left: 4px solid #ffc107;
+    margin: 8px 0;
+    font-weight: bold;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.1);
+}
+
+/* Footer */
+footer {
+    background-color: #0d3b66;
+    color: #fff;
+    text-align: center;
+    padding: 15px 10px;
+    margin-top: 20px;
+}
+
+footer a {
+    color: #fff;
+    margin: 0 5px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
